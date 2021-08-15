@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile - Community Books</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="styles/font-awesome.css"></link>
+		<link rel="stylesheet" href="styles/styles.css"></link>
+	</head>
+
+	<body>
+
+		<header>
+			<a class="btn"><i class="fa fa-lg fa-star"></i> 4.5</a>
+			<h3>Profile</h3>
+			<a class="btn" href = "settings.html"><i class="fa fa-lg fa-cog"></i></a>
+		</header>
+
+		<main class="scroll">
+			<div class="profile-row">
+				<i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i>
+				<h4>John Travolta</h4>
+				<div class="stats">
+					<i class="fa fa-users fa-lg" aria-hidden="true"></i> 2
+					<i class="fa fa-book fa-lg" aria-hidden="true"></i> 7
+					<i class="fa fa-lg fa-star"></i> 4.5
+				</div>
+			</div>
+
+			<!-- took out settings line, replaced notification bell with settings gear icon -->
+
+
+			<h3 class="media-row-title"><i class="fa fa-search"></i> Borrowed Books </h3>
+			<div class="media-row long-caption">
+				<figure>
+					<a href="books/fire-and-fury.html">
+						<img src="img/book1.png"/>
+						<figcaption>
+							Fire and Fury<br>
+							Due: 2 days
+						</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<a>
+						<img src="img/book2.png"/>
+						<figcaption>
+							The Woman in the Window<br>
+							Due: 10 days
+						</figcaption>
+					</a>
+				</figure>
+			</div>
+
+			<h3 class="media-row-title"><i class="fa fa-search"></i> Lent Books </h3>
+			<div class="media-row long-caption">
+				<figure>
+					<a>
+						<img src="img/book3.png"/>
+						<figcaption>
+							Milk and Honey<br>
+							Due: 2 days<br>
+							Lent to: sn1234
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure>
+					<a>
+						<img src="img/book4.png"/>
+						<figcaption>
+							A Wrinkle in Time<br>
+							Due: 10 days<br>
+							Lent to: sn3456
+						</figcaption>
+					</a>
+				</figure>
+			</div>
+
+			<h3 class="media-row-title"><i class="fa fa-search"></i> My Communities </h3>
+			<div class="media-row long-caption">
+				<figure>
+					<a href="communities/umd-fiction.html">
+						<img src="img/fiction.png"/>
+						<figcaption>UMD Fiction</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<a>
+						<img src="img/politics.png"/>
+						<figcaption>Books & Politics</figcaption>
+					</a>
+				</figure>
+			</div>
+
+			<h3 class="media-row-title"><a href="waitlist.html">Waitlist</a><i class="fa fa-search"></i></h3>
+			<div class="media-row long-caption" style="margin-bottom:20px;">
+				<figure>
+					<a href="books/fire-and-fury.html">
+						<img src="img/book1.png"/>
+						<figcaption>
+							Fire and Fury<br>
+							Position: 1<br>
+							Remove
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure>
+					<a>
+						<img src="img/book2.png"/>
+						<figcaption>
+							The Woman in the Window<br>
+							Position: 3<br>
+							Remove
+						</figcaption>
+					</a>
+				</figure>
+			</div>
+
+
+		</main>
+		<nav>
+			<ul>
+				<!-- Switch the "active" tab to the page you're currently on -->
+ 				<li><a href="index.html"><i class="fa fa-lg fa-home"></i>Home</a></li>
+				<li><a href="books.html"><i class="fa fa-lg fa-book"></i>Books</a></li>
+				<li><a href="communities.html"><i class="fa fa-lg fa-users"></i>Communities</a></li>
+				<li class="active"><a href="profile.html"><i class="fa fa-lg fa-user"></i>Profile</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>
